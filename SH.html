@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+body {
+  background-color: #e9ebd8;
+}
+
+    .container { 
+      height: 200px;
+      position: relative;
+      border-radius: 5%;
+    }
+    
+    .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+
+    .contain { 
+      height: 200px;
+      position: relative;
+    }
+    
+    .cent {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+    </style>
+<body>
+    
+    <p id="Shogun">SiriJun</p>
+    <image id="Saitakoon" src="Saitakoon.png"></image>
+    <image id="Kuykoon" src="Screenshot 2023-03-20 130114.png" style="display: none;"></image>
+    <label id="myLabel">0</label><br>
+
+    <div class="container">
+        <div class="center">
+          <button id="popBtn">Kuykoon</button>
+        </div>
+      </div>
+
+      <div class="contain">
+        <div class="cent">
+          <button id="resetBtn">Reset</button>
+        </div>
+      </div>
+
+    <script type='module' src="SH.js"></script>
+
+
+</body>
+</html>
